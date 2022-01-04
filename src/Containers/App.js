@@ -33,7 +33,7 @@ class App extends Component {
             <h1 className='tc f1'>Loading...</h1> :
             (
                 <div className='tc'>
-                    <h1 className='f1'>ATOMIC INTERNATIONAL'S AI HELPERS</h1>
+                    <h1 className='f1'>AI HELPERS</h1>
                     <SearchBox searchChange={this.onSearchChange} />
                     <Scroll>
                     <ErrorBoundry>
